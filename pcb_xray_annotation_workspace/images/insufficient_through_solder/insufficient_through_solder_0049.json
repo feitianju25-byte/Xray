@@ -1,0 +1,98 @@
+{
+  "version": "4.0.5",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          741.6538461538462,
+          997.2692307692308
+        ],
+        [
+          824.3461538461538,
+          997.2692307692308
+        ],
+        [
+          824.3461538461538,
+          1095.346153846154
+        ],
+        [
+          741.6538461538462,
+          1095.346153846154
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          666.6538461538461,
+          1079.9615384615386
+        ],
+        [
+          743.5769230769231,
+          1079.9615384615386
+        ],
+        [
+          743.5769230769231,
+          1176.1153846153848
+        ],
+        [
+          666.6538461538461,
+          1176.1153846153848
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          741.6538461538462,
+          1066.5000000000002
+        ],
+        [
+          820.5,
+          1066.5000000000002
+        ],
+        [
+          820.5,
+          1168.4230769230771
+        ],
+        [
+          741.6538461538462,
+          1168.4230769230771
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "insufficient_through_solder_0049.jpg",
+  "imageData": null,
+  "imageHeight": 1783,
+  "imageWidth": 2391
+}

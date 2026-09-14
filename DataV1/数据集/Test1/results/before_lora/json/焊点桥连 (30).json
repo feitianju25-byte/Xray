@@ -1,0 +1,12 @@
+{
+  "defect_type": "bonding_wire_defect",
+  "ellipses": [
+    {
+      "center_x": 585.0,
+      "center_y": 545.0,
+      "diameter_x": 15.0,
+      "diameter_y": 15.0,
+      "angle": 0.0
+    }
+  ]
+}

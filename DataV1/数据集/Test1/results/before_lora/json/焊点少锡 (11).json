@@ -1,0 +1,12 @@
+{
+  "defect_type": "solder_defect",
+  "ellipses": [
+    {
+      "center_x": 295.0,
+      "center_y": 526.0,
+      "diameter_x": 140.0,
+      "diameter_y": 100.0,
+      "angle": 0.0
+    }
+  ]
+}

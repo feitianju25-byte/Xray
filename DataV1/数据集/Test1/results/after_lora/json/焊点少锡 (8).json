@@ -1,0 +1,12 @@
+{
+  "defect_type": "焊点空洞",
+  "ellipses": [
+    {
+      "center_x": 268.45,
+      "center_y": 532.18,
+      "diameter_x": 45.32,
+      "diameter_y": 52.67,
+      "angle": 1.24
+    }
+  ]
+}

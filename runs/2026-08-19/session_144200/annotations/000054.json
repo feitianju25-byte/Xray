@@ -1,0 +1,26 @@
+{
+  "id": "000054",
+  "timestamp": "2026-08-19T14:43:59.756",
+  "reason": "auto",
+  "sequence_id": 253,
+  "frame": {
+    "width": 1920,
+    "height": 1080,
+    "source": "screen",
+    "screenshot": "D:\\Xray\\runs\\2026-08-19\\session_144200\\screenshots\\000054.png"
+  },
+  "result": {
+    "note": "yolo:cuda:0",
+    "marks": [
+      {
+        "x": 588,
+        "y": 415,
+        "width": 169,
+        "height": 131,
+        "label": "teddy bear",
+        "confidence": 0.26386791467666626,
+        "color": "#00d18f"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "000061",
+  "timestamp": "2026-08-19T14:44:03.924",
+  "reason": "auto",
+  "sequence_id": 262,
+  "frame": {
+    "width": 1920,
+    "height": 1080,
+    "source": "screen",
+    "screenshot": "D:\\Xray\\runs\\2026-08-19\\session_144200\\screenshots\\000061.png"
+  },
+  "result": {
+    "note": "yolo:cuda:0",
+    "marks": [
+      {
+        "x": 35,
+        "y": 1,
+        "width": 1854,
+        "height": 1071,
+        "label": "laptop",
+        "confidence": 0.3298686146736145,
+        "color": "#00d18f"
+      },
+      {
+        "x": 66,
+        "y": 0,
+        "width": 1814,
+        "height": 1074,
+        "label": "refrigerator",
+        "confidence": 0.25745993852615356,
+        "color": "#00d18f"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+该用户希望我检测提供的 PCB X 光图像中的缺陷。
+我需要识别图像中的异常区域，并以 JSON 格式输出结果。
+输出必须包含 `defect_type` 和 `ellipses` 字段。
+`ellipses` 是一个列表，包含缺陷的位置和形状信息（中心坐标、直径、角度）。
+我将仔细检查图像，寻找焊点空洞、桥连、少锡等常见 PCB 缺陷。
+最后，我将把检测结果整理成符合要求的 JSON 对象。
+</think>
+
+```json
+{
+  "defect_type": "空洞",
+  "ellipses": [
+    {
+      "center_x": 275.4,
+      "center_y": 405.2,
+      "diameter_x": 180.5,
+      "diameter_y": 210.3,
+      "angle": 1.2
+    },
+    {
+      "center_x": 615.8,
+      "center_y": 398.6,
+      "diameter_x": 175.2,
+      "diameter_y": 205.8,
+      "angle": 0.8
+    }
+  ]
+}
+```

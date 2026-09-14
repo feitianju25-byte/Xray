@@ -1,0 +1,17 @@
+{
+  "image": {
+    "path": "../../未标注/焊点桥连/焊点桥连 (8).jpg",
+    "width": 2405,
+    "height": 1808
+  },
+  "defect_type": "焊点桥连",
+  "ellipses": [
+    {
+      "center_x": 1020.54,
+      "center_y": 1147.04,
+      "diameter_x": 99.56,
+      "diameter_y": 181.21,
+      "angle": 0.07
+    }
+  ]
+}

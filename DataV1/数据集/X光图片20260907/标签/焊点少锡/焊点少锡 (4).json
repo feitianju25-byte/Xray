@@ -1,0 +1,24 @@
+{
+  "image": {
+    "path": "../../未标注/焊点少锡/焊点少锡 (4).jpg",
+    "width": 2221,
+    "height": 1806
+  },
+  "defect_type": "焊点少锡",
+  "ellipses": [
+    {
+      "center_x": 695.99,
+      "center_y": 436.54,
+      "diameter_x": 150.92,
+      "diameter_y": 189.74,
+      "angle": 179.92
+    },
+    {
+      "center_x": 703.0,
+      "center_y": 1195.52,
+      "diameter_x": 85.36,
+      "diameter_y": 137.25,
+      "angle": 90.02
+    }
+  ]
+}

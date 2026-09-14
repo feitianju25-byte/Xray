@@ -1,0 +1,19 @@
+{
+  "defect_type": "过锡不良",
+  "ellipses": [
+    {
+      "center_x": 577.74,
+      "center_y": 696.57,
+      "diameter_x": 178.35,
+      "diameter_y": 187.98,
+      "angle": 179.21
+    },
+    {
+      "center_x": 572.29,
+      "center_y": 1240.55,
+      "diameter_x": 171.77,
+      "diameter_y": 210.09,
+      "angle": 0.19
+    }
+  ]
+}

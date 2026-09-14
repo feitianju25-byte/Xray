@@ -1,0 +1,98 @@
+{
+  "version": "4.0.5",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "bridge",
+      "score": null,
+      "points": [
+        [
+          1546.5116279069766,
+          153.52325581395345
+        ],
+        [
+          1623.2558139534885,
+          153.52325581395345
+        ],
+        [
+          1623.2558139534885,
+          260.49999999999994
+        ],
+        [
+          1546.5116279069766,
+          260.49999999999994
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bridge",
+      "score": null,
+      "points": [
+        [
+          1383.7209302325582,
+          130.26744186046508
+        ],
+        [
+          1462.7906976744184,
+          130.26744186046508
+        ],
+        [
+          1462.7906976744184,
+          255.8488372093023
+        ],
+        [
+          1383.7209302325582,
+          255.8488372093023
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bridge",
+      "score": null,
+      "points": [
+        [
+          1241.860465116279,
+          132.5930232558139
+        ],
+        [
+          1309.3023255813955,
+          132.5930232558139
+        ],
+        [
+          1309.3023255813955,
+          241.89534883720927
+        ],
+        [
+          1241.860465116279,
+          241.89534883720927
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "bridge_0005.jpg",
+  "imageData": null,
+  "imageHeight": 2121,
+  "imageWidth": 3200
+}

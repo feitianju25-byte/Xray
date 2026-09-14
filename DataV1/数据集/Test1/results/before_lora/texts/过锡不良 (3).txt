@@ -1,0 +1,12 @@
+该任务要求检测 PCB X 光图像中的缺陷。首先，我需要分析图像内容，识别出 PCB 上的关键组件，如 BGA 焊球、连接器引脚和集成电路芯片。然后，我将仔细检查这些区域，寻找任何异常，例如焊球缺失、虚焊、连锡、引脚弯曲或断裂、以及芯片封装内的潜在问题。
+
+在检查过程中，我会特别关注焊点的质量，确保每个焊球都清晰可见且形状规则。对于连接器，我会检查引脚的对齐情况和完整性。最后，我将把检测到的任何缺陷整理成 JSON 格式，包含缺陷类型和具体的椭圆位置信息（中心坐标、直径和角度），以便用户能够精确定位问题所在。
+</think>
+
+```json
+[
+	{"bbox_2d": [175, 175, 285, 305], "label": "solder_ball", "ellipses": [{"center_x": 230, "center_y": 240, "diameter_x": 40, "diameter_y": 40, "angle": 0}]},
+	{"bbox_2d": [180, 330, 275, 435], "label": "solder_ball", "ellipses": [{"center_x": 227, "center_y": 382, "diameter_x": 38, "diameter_y": 38, "angle": 0}]},
+	{"bbox_2d": [180, 485, 270, 580], "label": "solder_ball", "ellipses": [{"center_x": 225, "center_y": 532, "diameter_x": 36, "diameter_y": 36, "angle": 0}]},
+	{"bbox_2d": [178, 630, 270, 730], "label": "solder_ball", "ellipses": [{"center_x": 224, "center_y": 680, "diameter_x": 38, "diameter_y": 38, "angle": 0}]},
+	{"bbox_2d": [160, 760, 27

@@ -1,0 +1,69 @@
+{
+  "version": "4.0.5",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          253.11538461538458,
+          1436.153846153846
+        ],
+        [
+          353.1153846153846,
+          1436.153846153846
+        ],
+        [
+          353.1153846153846,
+          1503.4615384615383
+        ],
+        [
+          253.11538461538458,
+          1503.4615384615383
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          1237.730769230769,
+          941.9230769230769
+        ],
+        [
+          1335.8076923076922,
+          941.9230769230769
+        ],
+        [
+          1335.8076923076922,
+          1032.3076923076922
+        ],
+        [
+          1237.730769230769,
+          1032.3076923076922
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "insufficient_through_solder_0063.jpg",
+  "imageData": null,
+  "imageHeight": 1780,
+  "imageWidth": 2387
+}

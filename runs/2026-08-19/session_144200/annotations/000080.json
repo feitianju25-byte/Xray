@@ -1,0 +1,80 @@
+{
+  "id": "000080",
+  "timestamp": "2026-08-19T14:44:15.430",
+  "reason": "auto",
+  "sequence_id": 286,
+  "frame": {
+    "width": 1920,
+    "height": 1080,
+    "source": "screen",
+    "screenshot": "D:\\Xray\\runs\\2026-08-19\\session_144200\\screenshots\\000080.png"
+  },
+  "result": {
+    "note": "yolo:cuda:0",
+    "marks": [
+      {
+        "x": 706,
+        "y": 245,
+        "width": 495,
+        "height": 788,
+        "label": "cat",
+        "confidence": 0.9051238298416138,
+        "color": "#00d18f"
+      },
+      {
+        "x": 241,
+        "y": 303,
+        "width": 436,
+        "height": 725,
+        "label": "cat",
+        "confidence": 0.8884060382843018,
+        "color": "#00d18f"
+      },
+      {
+        "x": 1218,
+        "y": 8,
+        "width": 688,
+        "height": 1043,
+        "label": "tv",
+        "confidence": 0.6853988170623779,
+        "color": "#00d18f"
+      },
+      {
+        "x": 1529,
+        "y": 531,
+        "width": 38,
+        "height": 92,
+        "label": "person",
+        "confidence": 0.5142577290534973,
+        "color": "#00d18f"
+      },
+      {
+        "x": 1672,
+        "y": 527,
+        "width": 38,
+        "height": 133,
+        "label": "person",
+        "confidence": 0.3782902657985687,
+        "color": "#00d18f"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "width": 1239,
+        "height": 1021,
+        "label": "tv",
+        "confidence": 0.3776034116744995,
+        "color": "#00d18f"
+      },
+      {
+        "x": 1566,
+        "y": 513,
+        "width": 60,
+        "height": 79,
+        "label": "person",
+        "confidence": 0.26200535893440247,
+        "color": "#00d18f"
+      }
+    ]
+  }
+}

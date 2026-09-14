@@ -1,0 +1,10 @@
+{
+  "dataset_json": "/Qwen3.6/LlamaFactory/data/pcb_xray_test.json",
+  "results_dir": "/Qwen3.6/Test2/results",
+  "rendered": {
+    "before_lora": 125,
+    "after_lora": 125,
+    "ground_truth": 125
+  },
+  "metrics_file": "/Qwen3.6/Test2/results/metrics.json"
+}

@@ -1,0 +1,28 @@
+# The original and derived JPG corpus stays on local/data storage.
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+
+# Dataset archives stay local with the image corpus.
+*.zip
+
+# Python bytecode and tool caches are reproducible artifacts.
+__pycache__/
+*.py[cod]
+*.cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor and operating-system state.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files.
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*

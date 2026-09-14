@@ -1,0 +1,19 @@
+{
+  "defect_type": "焊点少锡",
+  "ellipses": [
+    {
+      "center_x": 1503.01,
+      "center_y": 1232.0,
+      "diameter_x": 82.57,
+      "diameter_y": 255.22,
+      "angle": 90.01
+    },
+    {
+      "center_x": 716.43,
+      "center_y": 1251.52,
+      "diameter_x": 97.58,
+      "diameter_y": 132.17,
+      "angle": 89.88
+    }
+  ]
+}

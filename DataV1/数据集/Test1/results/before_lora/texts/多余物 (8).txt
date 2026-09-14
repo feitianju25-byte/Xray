@@ -1,0 +1,12 @@
+该用户希望我检测提供的 PCB X 光图像中的缺陷。
+首先，我需要分析图像内容，识别出电路板上的焊点、过孔和走线。
+其次，我将寻找常见的 PCB 缺陷，如虚焊、连锡、焊盘缺失或偏移等。
+最后，我将把检测到的缺陷信息整理成 JSON 格式，包含缺陷类型和对应的椭圆坐标参数。
+</think>
+
+```json
+[
+	{"defect_type": "solder_bridge", "ellipses": [{"center_x": 458, "center_y": 426, "diameter_x": 12, "diameter_y": 12, "angle": 0}]},
+	{"defect_type": "missing_solder", "ellipses": [{"center_x": 315, "center_y": 500, "diameter_x": 10, "diameter_y": 10, "angle": 0}]}
+]
+```

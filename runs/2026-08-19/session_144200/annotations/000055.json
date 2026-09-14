@@ -1,0 +1,26 @@
+{
+  "id": "000055",
+  "timestamp": "2026-08-19T14:44:00.126",
+  "reason": "auto",
+  "sequence_id": 254,
+  "frame": {
+    "width": 1920,
+    "height": 1080,
+    "source": "screen",
+    "screenshot": "D:\\Xray\\runs\\2026-08-19\\session_144200\\screenshots\\000055.png"
+  },
+  "result": {
+    "note": "yolo:cuda:0",
+    "marks": [
+      {
+        "x": 4,
+        "y": 0,
+        "width": 1906,
+        "height": 1050,
+        "label": "refrigerator",
+        "confidence": 0.4938827157020569,
+        "color": "#00d18f"
+      }
+    ]
+  }
+}

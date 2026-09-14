@@ -1,0 +1,26 @@
+{
+  "defect_type": "焊点桥连",
+  "ellipses": [
+    {
+      "center_x": 1209.1,
+      "center_y": 549.63,
+      "diameter_x": 112.14,
+      "diameter_y": 412.02,
+      "angle": 179.97
+    },
+    {
+      "center_x": 957.87,
+      "center_y": 567.55,
+      "diameter_x": 101.23,
+      "diameter_y": 213.63,
+      "angle": 90.03
+    },
+    {
+      "center_x": 1169.87,
+      "center_y": 1115.48,
+      "diameter_x": 118.31,
+      "diameter_y": 211.0,
+      "angle": 89.96
+    }
+  ]
+}

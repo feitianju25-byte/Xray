@@ -1,0 +1,12 @@
+{
+  "defect_type": "hollow_solder_joint",
+  "ellipses": [
+    {
+      "center_x": 448.0,
+      "center_y": 385.0,
+      "diameter_x": 65.0,
+      "diameter_y": 65.0,
+      "angle": 0.0
+    }
+  ]
+}

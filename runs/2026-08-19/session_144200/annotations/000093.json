@@ -1,0 +1,71 @@
+{
+  "id": "000093",
+  "timestamp": "2026-08-19T14:44:22.041",
+  "reason": "auto",
+  "sequence_id": 299,
+  "frame": {
+    "width": 1920,
+    "height": 1080,
+    "source": "screen",
+    "screenshot": "D:\\Xray\\runs\\2026-08-19\\session_144200\\screenshots\\000093.png"
+  },
+  "result": {
+    "note": "yolo:cuda:0",
+    "marks": [
+      {
+        "x": 319,
+        "y": 443,
+        "width": 360,
+        "height": 255,
+        "label": "cat",
+        "confidence": 0.8709328770637512,
+        "color": "#00d18f"
+      },
+      {
+        "x": 318,
+        "y": 815,
+        "width": 361,
+        "height": 208,
+        "label": "cat",
+        "confidence": 0.7480278015136719,
+        "color": "#00d18f"
+      },
+      {
+        "x": 711,
+        "y": 399,
+        "width": 456,
+        "height": 428,
+        "label": "cat",
+        "confidence": 0.5855955481529236,
+        "color": "#00d18f"
+      },
+      {
+        "x": 1322,
+        "y": 375,
+        "width": 201,
+        "height": 519,
+        "label": "cat",
+        "confidence": 0.4368554651737213,
+        "color": "#00d18f"
+      },
+      {
+        "x": 940,
+        "y": 479,
+        "width": 219,
+        "height": 347,
+        "label": "cat",
+        "confidence": 0.27085238695144653,
+        "color": "#00d18f"
+      },
+      {
+        "x": 1321,
+        "y": 377,
+        "width": 196,
+        "height": 517,
+        "label": "dog",
+        "confidence": 0.25485652685165405,
+        "color": "#00d18f"
+      }
+    ]
+  }
+}

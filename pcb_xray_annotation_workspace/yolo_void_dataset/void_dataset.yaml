@@ -1,0 +1,6 @@
+path: D:/Xray/pcb_xray_annotation_workspace/yolo_void_dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: void

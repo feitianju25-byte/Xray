@@ -1,0 +1,12 @@
+该用户希望我分析一张 PCB 的 X 光图像，并检测其中的缺陷。
+首先，我需要仔细观察图像，识别出 PCB 上的关键组件，特别是连接器引脚和焊点。
+接着，我将对比正常的引脚排列和焊接状态，寻找异常，例如引脚缺失、错位、虚焊或连锡等。
+最后，我将把检测到的缺陷信息整理成 JSON 格式，包含缺陷类型和具体的椭圆坐标参数，以满足用户的输出要求。
+</think>
+
+```json
+[
+	{"bbox_2d": [513, 313, 538, 362], "label": "defect", "defect_type": "missing_pin", "ellipses": [{"center_x": 525, "center_y": 337, "diameter_x": 12, "diameter_y": 18, "angle": 0}]},
+	{"bbox_2d": [485, 316, 508, 364], "label": "defect", "defect_type": "missing_pin", "ellipses": [{"center_x": 496, "center_y": 340, "diameter_x": 12, "diameter_y": 18, "angle": 0}]}
+]
+```

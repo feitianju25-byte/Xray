@@ -1,0 +1,12 @@
+{
+  "defect_type": "crack",
+  "ellipses": [
+    {
+      "center_x": 108.0,
+      "center_y": 715.0,
+      "diameter_x": 120.0,
+      "diameter_y": 15.0,
+      "angle": 10.0
+    }
+  ]
+}

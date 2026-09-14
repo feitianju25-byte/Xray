@@ -1,0 +1,98 @@
+{
+  "version": "4.0.5",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          293.50000000000006,
+          1440.6153846153845
+        ],
+        [
+          526.1923076923076,
+          1440.6153846153845
+        ],
+        [
+          526.1923076923076,
+          1611.7692307692307
+        ],
+        [
+          293.50000000000006,
+          1611.7692307692307
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          310.8076923076923,
+          875.2307692307693
+        ],
+        [
+          580.0384615384614,
+          875.2307692307693
+        ],
+        [
+          580.0384615384614,
+          1063.6923076923076
+        ],
+        [
+          310.8076923076923,
+          1063.6923076923076
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          356.9615384615385,
+          354.07692307692304
+        ],
+        [
+          597.3461538461538,
+          354.07692307692304
+        ],
+        [
+          597.3461538461538,
+          538.6923076923077
+        ],
+        [
+          356.9615384615385,
+          538.6923076923077
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "insufficient_through_solder_0075.jpg",
+  "imageData": null,
+  "imageHeight": 1762,
+  "imageWidth": 2437
+}

@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-08-18T15:55:44",
+  "unique_images": 251,
+  "duplicate_exact_count": 16,
+  "red_references_found": 248,
+  "red_references_inferred": 3,
+  "red_references_missing": 0,
+  "bridge": 34,
+  "insufficient_through_solder": 109,
+  "void": 108
+}

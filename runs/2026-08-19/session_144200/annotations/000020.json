@@ -1,0 +1,62 @@
+{
+  "id": "000020",
+  "timestamp": "2026-08-19T14:43:38.739",
+  "reason": "auto",
+  "sequence_id": 208,
+  "frame": {
+    "width": 1920,
+    "height": 1080,
+    "source": "screen",
+    "screenshot": "D:\\Xray\\runs\\2026-08-19\\session_144200\\screenshots\\000020.png"
+  },
+  "result": {
+    "note": "yolo:cuda:0",
+    "marks": [
+      {
+        "x": 718,
+        "y": 276,
+        "width": 245,
+        "height": 413,
+        "label": "cat",
+        "confidence": 0.8111090064048767,
+        "color": "#00d18f"
+      },
+      {
+        "x": 383,
+        "y": 332,
+        "width": 331,
+        "height": 352,
+        "label": "cat",
+        "confidence": 0.6416166424751282,
+        "color": "#00d18f"
+      },
+      {
+        "x": 649,
+        "y": 817,
+        "width": 76,
+        "height": 116,
+        "label": "person",
+        "confidence": 0.42689698934555054,
+        "color": "#00d18f"
+      },
+      {
+        "x": 337,
+        "y": 804,
+        "width": 87,
+        "height": 131,
+        "label": "person",
+        "confidence": 0.31126001477241516,
+        "color": "#00d18f"
+      },
+      {
+        "x": 1603,
+        "y": 811,
+        "width": 103,
+        "height": 95,
+        "label": "person",
+        "confidence": 0.27430209517478943,
+        "color": "#00d18f"
+      }
+    ]
+  }
+}

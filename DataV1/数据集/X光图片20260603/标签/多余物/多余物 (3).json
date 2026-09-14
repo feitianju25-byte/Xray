@@ -1,0 +1,17 @@
+{
+  "image": {
+    "path": "../../未标注/多余物/多余物 (3).jpg",
+    "width": 3200,
+    "height": 2121
+  },
+  "defect_type": "多余物",
+  "ellipses": [
+    {
+      "center_x": 1664.13,
+      "center_y": 428.59,
+      "diameter_x": 72.54,
+      "diameter_y": 101.89,
+      "angle": 90.23
+    }
+  ]
+}

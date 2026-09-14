@@ -1,0 +1,16 @@
+{
+  "id": "000003",
+  "timestamp": "2026-08-19T14:43:17.293",
+  "reason": "manual",
+  "sequence_id": 163,
+  "frame": {
+    "width": 1920,
+    "height": 1080,
+    "source": "screen",
+    "screenshot": "D:\\Xray\\runs\\2026-08-19\\session_144200\\screenshots\\000003.png"
+  },
+  "result": {
+    "note": "yolo:cuda:0",
+    "marks": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "defect_type": "多余物",
+  "ellipses": [
+    {
+      "center_x": 611.13,
+      "center_y": 160.51,
+      "diameter_x": 47.82,
+      "diameter_y": 62.71,
+      "angle": 89.98
+    },
+    {
+      "center_x": 484.56,
+      "center_y": 318.01,
+      "diameter_x": 65.63,
+      "diameter_y": 66.82,
+      "angle": 7.38
+    }
+  ]
+}

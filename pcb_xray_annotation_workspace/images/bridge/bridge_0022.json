@@ -1,0 +1,127 @@
+{
+  "version": "4.0.5",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "bridge",
+      "score": null,
+      "points": [
+        [
+          832.3076923076923,
+          670.5
+        ],
+        [
+          918.4615384615385,
+          670.5
+        ],
+        [
+          918.4615384615385,
+          753.5769230769231
+        ],
+        [
+          832.3076923076923,
+          753.5769230769231
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bridge",
+      "score": null,
+      "points": [
+        [
+          887.6923076923076,
+          579.7307692307693
+        ],
+        [
+          969.2307692307692,
+          579.7307692307693
+        ],
+        [
+          969.2307692307692,
+          668.9615384615385
+        ],
+        [
+          887.6923076923076,
+          668.9615384615385
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bridge",
+      "score": null,
+      "points": [
+        [
+          1312.3076923076922,
+          582.8076923076924
+        ],
+        [
+          1396.923076923077,
+          582.8076923076924
+        ],
+        [
+          1396.923076923077,
+          704.3461538461539
+        ],
+        [
+          1312.3076923076922,
+          704.3461538461539
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bridge",
+      "score": null,
+      "points": [
+        [
+          1593.8461538461538,
+          667.4230769230769
+        ],
+        [
+          1678.4615384615383,
+          667.4230769230769
+        ],
+        [
+          1678.4615384615383,
+          747.4230769230769
+        ],
+        [
+          1593.8461538461538,
+          747.4230769230769
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "bridge_0022.jpg",
+  "imageData": null,
+  "imageHeight": 2121,
+  "imageWidth": 3200
+}

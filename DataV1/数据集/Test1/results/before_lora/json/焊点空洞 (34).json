@@ -1,0 +1,33 @@
+{
+  "defect_type": "missing_pad",
+  "ellipses": [
+    {
+      "center_x": 345.0,
+      "center_y": 626.0,
+      "diameter_x": 45.0,
+      "diameter_y": 45.0,
+      "angle": 0.0
+    },
+    {
+      "center_x": 408.0,
+      "center_y": 626.0,
+      "diameter_x": 45.0,
+      "diameter_y": 45.0,
+      "angle": 0.0
+    },
+    {
+      "center_x": 790.0,
+      "center_y": 563.0,
+      "diameter_x": 45.0,
+      "diameter_y": 45.0,
+      "angle": 0.0
+    },
+    {
+      "center_x": 790.0,
+      "center_y": 626.0,
+      "diameter_x": 45.0,
+      "diameter_y": 45.0,
+      "angle": 0.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": "4.0.5",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "bridge",
+      "score": null,
+      "points": [
+        [
+          904.6153846153845,
+          1265.8846153846155
+        ],
+        [
+          987.6923076923076,
+          1265.8846153846155
+        ],
+        [
+          987.6923076923076,
+          1336.6538461538462
+        ],
+        [
+          904.6153846153845,
+          1336.6538461538462
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "bridge_0012.jpg",
+  "imageData": null,
+  "imageHeight": 2121,
+  "imageWidth": 3200
+}

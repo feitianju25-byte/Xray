@@ -1,0 +1,19 @@
+{
+  "defect_type": "空洞",
+  "ellipses": [
+    {
+      "center_x": 275.4,
+      "center_y": 405.2,
+      "diameter_x": 180.5,
+      "diameter_y": 210.3,
+      "angle": 1.2
+    },
+    {
+      "center_x": 615.8,
+      "center_y": 398.6,
+      "diameter_x": 175.2,
+      "diameter_y": 205.8,
+      "angle": 0.8
+    }
+  ]
+}

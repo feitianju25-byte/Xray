@@ -1,0 +1,126 @@
+{
+  "version": "3.3.10",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          707.0000000000001,
+          570.5714285714287
+        ],
+        [
+          878.4285714285716,
+          570.5714285714287
+        ],
+        [
+          878.4285714285716,
+          744.8571428571429
+        ],
+        [
+          707.0000000000001,
+          744.8571428571429
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          955.5714285714287,
+          722.0
+        ],
+        [
+          1167.0,
+          722.0
+        ],
+        [
+          1167.0,
+          947.7142857142858
+        ],
+        [
+          955.5714285714287,
+          947.7142857142858
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          1807.0,
+          1039.142857142857
+        ],
+        [
+          1987.0,
+          1039.142857142857
+        ],
+        [
+          1987.0,
+          1222.0
+        ],
+        [
+          1807.0,
+          1222.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          1935.5714285714284,
+          1007.7142857142858
+        ],
+        [
+          2138.428571428571,
+          1007.7142857142858
+        ],
+        [
+          2138.428571428571,
+          1184.857142857143
+        ],
+        [
+          1935.5714285714284,
+          1184.857142857143
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "void_0043.jpg",
+  "imageData": null,
+  "imageHeight": 1764,
+  "imageWidth": 2414
+}

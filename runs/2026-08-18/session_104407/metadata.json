@@ -1,0 +1,26 @@
+{
+  "session_id": "session_104407",
+  "started_at": "2026-08-18T10:44:07",
+  "settings": {
+    "backend": {
+      "backend_type": "yolo",
+      "model_path": "yolo11n.pt",
+      "confidence": 0.25,
+      "iou": 0.45,
+      "device": "auto"
+    },
+    "runtime": {
+      "auto_detect": true,
+      "capture_interval": 0.08,
+      "inference_interval": 0.03,
+      "show_labels": true,
+      "show_confidence": true
+    },
+    "history": {
+      "enabled": true,
+      "save_screenshots": true,
+      "save_empty_results": false,
+      "history_dir": "runs"
+    }
+  }
+}

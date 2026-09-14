@@ -1,0 +1,213 @@
+{
+  "version": "3.3.10",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          1135.125,
+          1355.7916666666667
+        ],
+        [
+          1297.625,
+          1355.7916666666667
+        ],
+        [
+          1297.625,
+          1474.5416666666667
+        ],
+        [
+          1135.125,
+          1474.5416666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          1135.125,
+          1243.2916666666667
+        ],
+        [
+          1283.0416666666667,
+          1243.2916666666667
+        ],
+        [
+          1283.0416666666667,
+          1351.625
+        ],
+        [
+          1135.125,
+          1351.625
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          1133.0416666666667,
+          1139.125
+        ],
+        [
+          1283.0416666666667,
+          1139.125
+        ],
+        [
+          1283.0416666666667,
+          1243.2916666666667
+        ],
+        [
+          1133.0416666666667,
+          1243.2916666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          1012.2083333333334,
+          1262.0416666666667
+        ],
+        [
+          1174.7083333333333,
+          1262.0416666666667
+        ],
+        [
+          1174.7083333333333,
+          1368.2916666666667
+        ],
+        [
+          1012.2083333333334,
+          1368.2916666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          1026.7916666666667,
+          1376.625
+        ],
+        [
+          1185.125,
+          1376.625
+        ],
+        [
+          1185.125,
+          1499.5416666666667
+        ],
+        [
+          1026.7916666666667,
+          1499.5416666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          920.5416666666667,
+          1174.5416666666667
+        ],
+        [
+          1072.625,
+          1174.5416666666667
+        ],
+        [
+          1072.625,
+          1284.9583333333335
+        ],
+        [
+          920.5416666666667,
+          1284.9583333333335
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "void",
+      "score": null,
+      "points": [
+        [
+          916.3750000000001,
+          1395.375
+        ],
+        [
+          1080.9583333333333,
+          1395.375
+        ],
+        [
+          1080.9583333333333,
+          1503.7083333333335
+        ],
+        [
+          916.3750000000001,
+          1503.7083333333335
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "void_0050.jpg",
+  "imageData": null,
+  "imageHeight": 1772,
+  "imageWidth": 2389
+}

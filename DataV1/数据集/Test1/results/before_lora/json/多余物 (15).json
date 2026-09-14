@@ -1,0 +1,12 @@
+{
+  "defect_type": "solder_bridge",
+  "ellipses": [
+    {
+      "center_x": 865.0,
+      "center_y": 515.0,
+      "diameter_x": 45.0,
+      "diameter_y": 120.0,
+      "angle": 0.0
+    }
+  ]
+}

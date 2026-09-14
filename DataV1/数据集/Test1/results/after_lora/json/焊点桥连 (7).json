@@ -1,0 +1,12 @@
+{
+  "defect_type": "过孔空洞/桥连",
+  "ellipses": [
+    {
+      "center_x": 568.5,
+      "center_y": 365.2,
+      "diameter_x": 45.8,
+      "diameter_y": 22.3,
+      "angle": 178.5
+    }
+  ]
+}

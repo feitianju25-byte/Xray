@@ -1,0 +1,12 @@
+{
+  "defect_type": "open_hole",
+  "ellipses": [
+    {
+      "center_x": 412.0,
+      "center_y": 418.0,
+      "diameter_x": 85.0,
+      "diameter_y": 85.0,
+      "angle": 0.0
+    }
+  ]
+}

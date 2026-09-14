@@ -1,0 +1,98 @@
+{
+  "version": "4.0.5",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          1190.6542056074766,
+          220.56074766355138
+        ],
+        [
+          1229.9065420560746,
+          220.56074766355138
+        ],
+        [
+          1229.9065420560746,
+          280.3738317757009
+        ],
+        [
+          1190.6542056074766,
+          280.3738317757009
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          216.2536231884058,
+          836.231884057971
+        ],
+        [
+          275.6739130434783,
+          836.231884057971
+        ],
+        [
+          275.6739130434783,
+          943.4782608695651
+        ],
+        [
+          216.2536231884058,
+          943.4782608695651
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          753.9347826086955,
+          846.3768115942029
+        ],
+        [
+          819.1521739130435,
+          846.3768115942029
+        ],
+        [
+          819.1521739130435,
+          947.8260869565216
+        ],
+        [
+          753.9347826086955,
+          947.8260869565216
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "insufficient_through_solder_0016.jpg",
+  "imageData": null,
+  "imageHeight": 1560,
+  "imageWidth": 1747
+}

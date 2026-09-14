@@ -1,0 +1,98 @@
+{
+  "version": "4.0.5",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          1712.367924528302,
+          958.2924528301887
+        ],
+        [
+          1840.6698113207547,
+          958.2924528301887
+        ],
+        [
+          1840.6698113207547,
+          1050.7452830188681
+        ],
+        [
+          1712.367924528302,
+          1050.7452830188681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          1242.5566037735848,
+          1407.3490566037738
+        ],
+        [
+          1397.2735849056603,
+          1407.3490566037738
+        ],
+        [
+          1397.2735849056603,
+          1514.8962264150944
+        ],
+        [
+          1242.5566037735848,
+          1514.8962264150944
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          1674.632075471698,
+          511.12264150943395
+        ],
+        [
+          1797.2735849056605,
+          511.12264150943395
+        ],
+        [
+          1797.2735849056605,
+          607.3490566037736
+        ],
+        [
+          1674.632075471698,
+          607.3490566037736
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "insufficient_through_solder_0065.jpg",
+  "imageData": null,
+  "imageHeight": 1743,
+  "imageWidth": 2387
+}

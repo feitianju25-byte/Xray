@@ -1,0 +1,14 @@
+{
+  "label": "bridge",
+  "positive_source_images": 34,
+  "normal_source_images": 890,
+  "patch_counts": {
+    "train/bridge": 390,
+    "val/bridge": 180,
+    "test/bridge": 135,
+    "train/normal": 1246,
+    "val/normal": 356,
+    "test/normal": 178
+  },
+  "excluded_unannotated_same_class": true
+}

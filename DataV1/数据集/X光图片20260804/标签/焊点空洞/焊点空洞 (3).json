@@ -1,0 +1,66 @@
+{
+  "image": {
+    "path": "../../未标注/焊点空洞/焊点空洞 (3).jpg",
+    "width": 1004,
+    "height": 620
+  },
+  "defect_type": "焊点空洞",
+  "ellipses": [
+    {
+      "center_x": 278.44,
+      "center_y": 152.53,
+      "diameter_x": 97.66,
+      "diameter_y": 109.7,
+      "angle": 0.41
+    },
+    {
+      "center_x": 576.97,
+      "center_y": 154.48,
+      "diameter_x": 71.46,
+      "diameter_y": 72.78,
+      "angle": 87.35
+    },
+    {
+      "center_x": 375.49,
+      "center_y": 252.49,
+      "diameter_x": 77.44,
+      "diameter_y": 87.63,
+      "angle": 90.24
+    },
+    {
+      "center_x": 676.54,
+      "center_y": 259.61,
+      "diameter_x": 71.44,
+      "diameter_y": 77.57,
+      "angle": 0.8
+    },
+    {
+      "center_x": 775.56,
+      "center_y": 261.05,
+      "diameter_x": 70.49,
+      "diameter_y": 77.64,
+      "angle": 90.21
+    },
+    {
+      "center_x": 269.49,
+      "center_y": 356.0,
+      "diameter_x": 93.69,
+      "diameter_y": 94.63,
+      "angle": 177.44
+    },
+    {
+      "center_x": 872.95,
+      "center_y": 359.53,
+      "diameter_x": 73.42,
+      "diameter_y": 84.75,
+      "angle": 90.08
+    },
+    {
+      "center_x": 771.03,
+      "center_y": 360.99,
+      "diameter_x": 80.54,
+      "diameter_y": 84.55,
+      "angle": 0.55
+    }
+  ]
+}

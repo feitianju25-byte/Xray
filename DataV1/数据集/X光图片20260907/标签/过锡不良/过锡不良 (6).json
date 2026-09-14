@@ -1,0 +1,52 @@
+{
+  "image": {
+    "path": "../../未标注/过锡不良/过锡不良 (6).jpg",
+    "width": 2394,
+    "height": 1813
+  },
+  "defect_type": "过锡不良",
+  "ellipses": [
+    {
+      "center_x": 1723.75,
+      "center_y": 398.86,
+      "diameter_x": 174.6,
+      "diameter_y": 181.99,
+      "angle": 88.58
+    },
+    {
+      "center_x": 1050.72,
+      "center_y": 581.95,
+      "diameter_x": 192.54,
+      "diameter_y": 239.79,
+      "angle": 89.55
+    },
+    {
+      "center_x": 520.64,
+      "center_y": 734.9,
+      "diameter_x": 170.53,
+      "diameter_y": 251.99,
+      "angle": 89.62
+    },
+    {
+      "center_x": 1736.79,
+      "center_y": 854.93,
+      "diameter_x": 182.39,
+      "diameter_y": 187.81,
+      "angle": 91.99
+    },
+    {
+      "center_x": 1062.66,
+      "center_y": 1035.95,
+      "diameter_x": 184.27,
+      "diameter_y": 284.28,
+      "angle": 89.94
+    },
+    {
+      "center_x": 496.67,
+      "center_y": 1174.9,
+      "diameter_x": 158.48,
+      "diameter_y": 276.43,
+      "angle": 89.78
+    }
+  ]
+}

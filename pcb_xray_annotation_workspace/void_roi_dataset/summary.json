@@ -1,0 +1,21 @@
+{
+  "patch_size": 224,
+  "min_roi_side": 224,
+  "max_roi_side": 768,
+  "positive_scales": [
+    3.0,
+    4.0,
+    5.0
+  ],
+  "negative_crop_side_before_resize": 457,
+  "positive_source_images": 108,
+  "negative_source_images": 816,
+  "patch_counts": {
+    "train/void": 4140,
+    "val/void": 900,
+    "test/void": 570,
+    "train/normal": 1142,
+    "val/normal": 326,
+    "test/normal": 164
+  }
+}

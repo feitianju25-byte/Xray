@@ -1,0 +1,17 @@
+{
+  "image": {
+    "path": "../../未标注/焊点空洞/焊点空洞 (33).jpg",
+    "width": 2410,
+    "height": 1806
+  },
+  "defect_type": "焊点空洞",
+  "ellipses": [
+    {
+      "center_x": 1073.07,
+      "center_y": 995.95,
+      "diameter_x": 302.51,
+      "diameter_y": 326.59,
+      "angle": 0.37
+    }
+  ]
+}

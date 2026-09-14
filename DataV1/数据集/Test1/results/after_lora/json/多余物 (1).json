@@ -1,0 +1,12 @@
+{
+  "defect_type": "焊点桥连/多余焊料",
+  "ellipses": [
+    {
+      "center_x": 463.5,
+      "center_y": 536.2,
+      "diameter_x": 42.8,
+      "diameter_y": 45.1,
+      "angle": 1.2
+    }
+  ]
+}

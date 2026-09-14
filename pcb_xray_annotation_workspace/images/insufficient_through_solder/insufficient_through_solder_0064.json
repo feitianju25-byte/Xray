@@ -1,0 +1,98 @@
+{
+  "version": "4.0.5",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          1697.3518518518517,
+          566.7592592592592
+        ],
+        [
+          1821.4259259259256,
+          566.7592592592592
+        ],
+        [
+          1821.4259259259256,
+          672.3148148148148
+        ],
+        [
+          1697.3518518518517,
+          672.3148148148148
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          1738.0925925925924,
+          985.2777777777777
+        ],
+        [
+          1856.6111111111109,
+          985.2777777777777
+        ],
+        [
+          1856.6111111111109,
+          1070.462962962963
+        ],
+        [
+          1738.0925925925924,
+          1070.462962962963
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "insufficient_through_solder",
+      "score": null,
+      "points": [
+        [
+          1295.5,
+          1390.8333333333335
+        ],
+        [
+          1441.7962962962963,
+          1390.8333333333335
+        ],
+        [
+          1441.7962962962963,
+          1509.351851851852
+        ],
+        [
+          1295.5,
+          1509.351851851852
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "insufficient_through_solder_0064.jpg",
+  "imageData": null,
+  "imageHeight": 1715,
+  "imageWidth": 2391
+}

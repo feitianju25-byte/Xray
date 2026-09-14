@@ -1,0 +1,62 @@
+{
+  "id": "000118",
+  "timestamp": "2026-08-19T14:44:34.621",
+  "reason": "auto",
+  "sequence_id": 325,
+  "frame": {
+    "width": 1920,
+    "height": 1080,
+    "source": "screen",
+    "screenshot": "D:\\Xray\\runs\\2026-08-19\\session_144200\\screenshots\\000118.png"
+  },
+  "result": {
+    "note": "yolo:cuda:0",
+    "marks": [
+      {
+        "x": 320,
+        "y": 443,
+        "width": 360,
+        "height": 258,
+        "label": "cat",
+        "confidence": 0.863193690776825,
+        "color": "#00d18f"
+      },
+      {
+        "x": 708,
+        "y": 591,
+        "width": 469,
+        "height": 245,
+        "label": "cat",
+        "confidence": 0.7378314733505249,
+        "color": "#00d18f"
+      },
+      {
+        "x": 315,
+        "y": 810,
+        "width": 361,
+        "height": 213,
+        "label": "cat",
+        "confidence": 0.7306334376335144,
+        "color": "#00d18f"
+      },
+      {
+        "x": 1293,
+        "y": 375,
+        "width": 231,
+        "height": 517,
+        "label": "cat",
+        "confidence": 0.5742073059082031,
+        "color": "#00d18f"
+      },
+      {
+        "x": 706,
+        "y": 391,
+        "width": 414,
+        "height": 205,
+        "label": "cat",
+        "confidence": 0.5607393980026245,
+        "color": "#00d18f"
+      }
+    ]
+  }
+}

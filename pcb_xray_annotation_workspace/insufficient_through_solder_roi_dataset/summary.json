@@ -1,0 +1,14 @@
+{
+  "label": "insufficient_through_solder",
+  "positive_source_images": 104,
+  "normal_source_images": 815,
+  "patch_counts": {
+    "train/insufficient_through_solder": 2505,
+    "val/insufficient_through_solder": 855,
+    "test/insufficient_through_solder": 465,
+    "train/normal": 1140,
+    "val/normal": 326,
+    "test/normal": 164
+  },
+  "excluded_unannotated_same_class": true
+}

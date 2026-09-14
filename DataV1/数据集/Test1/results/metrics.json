@@ -1,0 +1,2291 @@
+{
+  "definition": "class matches and rotated ellipse IoU is at least the threshold",
+  "accuracy_definition": "matched_ellipses / ground_truth_ellipses",
+  "iou_threshold": 0.5,
+  "models": {
+    "before_lora": {
+      "iou_threshold": 0.5,
+      "evaluated_images": 125,
+      "parse_failures": 78,
+      "class_correct_images": 0,
+      "correctly_detected_images": 0,
+      "ground_truth_ellipses": 241,
+      "predicted_ellipses": 52,
+      "matched_ellipses": 0,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mean_matched_iou": 0.0,
+      "per_image": [
+        {
+          "sample_id": "多余物 (1)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (10)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (11)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (12)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (13)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (14)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (15)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (16)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (17)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (18)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (19)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (2)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (20)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (21)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (22)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (23)",
+          "class_correct": false,
+          "ground_truth_ellipses": 6,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (24)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (25)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (26)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (27)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (28)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (29)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (3)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (30)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (31)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (32)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (4)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (5)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (6)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (7)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (8)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (9)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (1)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (10)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (11)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (12)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (13)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (2)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (3)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (4)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (5)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (6)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (7)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (8)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (9)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (1)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (10)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (11)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (12)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (13)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (14)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (15)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (16)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (17)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (18)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (19)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (2)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (20)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (21)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (22)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (23)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (24)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (25)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (26)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (27)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (28)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (29)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (3)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (30)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (4)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (5)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (6)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (7)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (8)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (9)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (1)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (10)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (11)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (12)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (13)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (14)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (15)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (16)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (17)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (18)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (19)",
+          "class_correct": false,
+          "ground_truth_ellipses": 7,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (2)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (20)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (21)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (22)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (23)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (24)",
+          "class_correct": false,
+          "ground_truth_ellipses": 5,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (25)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (26)",
+          "class_correct": false,
+          "ground_truth_ellipses": 7,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (27)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (28)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 3,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (29)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (3)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (30)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (31)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (32)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (33)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (34)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 4,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (35)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (4)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (5)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (6)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (7)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (8)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (9)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (1)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (10)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (11)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (12)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (13)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (14)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (15)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (2)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (3)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (4)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (5)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (6)",
+          "class_correct": false,
+          "ground_truth_ellipses": 6,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (7)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (8)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (9)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        }
+      ]
+    },
+    "after_lora": {
+      "iou_threshold": 0.5,
+      "evaluated_images": 125,
+      "parse_failures": 71,
+      "class_correct_images": 9,
+      "correctly_detected_images": 0,
+      "ground_truth_ellipses": 241,
+      "predicted_ellipses": 72,
+      "matched_ellipses": 0,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mean_matched_iou": 0.0,
+      "per_image": [
+        {
+          "sample_id": "多余物 (1)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (10)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (11)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (12)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (13)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (14)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (15)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (16)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (17)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (18)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (19)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (2)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (20)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (21)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (22)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (23)",
+          "class_correct": false,
+          "ground_truth_ellipses": 6,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (24)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (25)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (26)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (27)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (28)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (29)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (3)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (30)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (31)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (32)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (4)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (5)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (6)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (7)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (8)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "多余物 (9)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (1)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (10)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (11)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (12)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (13)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (2)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (3)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (4)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (5)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (6)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (7)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (8)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点少锡 (9)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (1)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (10)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (11)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (12)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (13)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (14)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (15)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (16)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (17)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (18)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (19)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (2)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (20)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (21)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (22)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (23)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (24)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (25)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (26)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (27)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (28)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (29)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (3)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (30)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (4)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (5)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (6)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (7)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (8)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点桥连 (9)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (1)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (10)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (11)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (12)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (13)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (14)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (15)",
+          "class_correct": true,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (16)",
+          "class_correct": true,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (17)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (18)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (19)",
+          "class_correct": false,
+          "ground_truth_ellipses": 7,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (2)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (20)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (21)",
+          "class_correct": true,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (22)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (23)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (24)",
+          "class_correct": true,
+          "ground_truth_ellipses": 5,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (25)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (26)",
+          "class_correct": true,
+          "ground_truth_ellipses": 7,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (27)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (28)",
+          "class_correct": true,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 3,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (29)",
+          "class_correct": true,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (3)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (30)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (31)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 2,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (32)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (33)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (34)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (35)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (4)",
+          "class_correct": false,
+          "ground_truth_ellipses": 3,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (5)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (6)",
+          "class_correct": true,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (7)",
+          "class_correct": true,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (8)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "焊点空洞 (9)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (1)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (10)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (11)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (12)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (13)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (14)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (15)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 1,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (2)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (3)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (4)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (5)",
+          "class_correct": false,
+          "ground_truth_ellipses": 4,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (6)",
+          "class_correct": false,
+          "ground_truth_ellipses": 6,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (7)",
+          "class_correct": false,
+          "ground_truth_ellipses": 1,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (8)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        },
+        {
+          "sample_id": "过锡不良 (9)",
+          "class_correct": false,
+          "ground_truth_ellipses": 2,
+          "predicted_ellipses": 0,
+          "matched_ellipses": 0,
+          "accuracy": 0.0,
+          "matched_ious": []
+        }
+      ]
+    }
+  }
+}
