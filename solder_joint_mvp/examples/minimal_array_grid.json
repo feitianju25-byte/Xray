@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "0123456789abcdef0123",
+  "array_id": "array-001",
+  "bbox": [10, 20, 500, 300],
+  "rows": 2,
+  "cols": 3,
+  "basis_vectors": [[50, 0], [0, 50]],
+  "spacing": [50, 50],
+  "orientation_degrees": 0,
+  "confidence": 0.95,
+  "points": [{"row": 0, "col": 0, "center": [50, 50], "scale": 20, "confidence": 0.98, "status": "observed"}]
+}
+

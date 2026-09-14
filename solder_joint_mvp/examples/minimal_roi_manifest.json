@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "algorithm_version": "0.1.0",
+  "config": {"output_size": 128},
+  "records": [{
+    "roi_id": "array-001-r00-c00",
+    "sample_id": "0123456789abcdef0123",
+    "source_path": "D:/data/batch/image.jpg",
+    "array_id": "array-001",
+    "row": 0,
+    "col": 0,
+    "crop_bbox": [20, 20, 80, 80],
+    "output_path": "outputs/rois/array-001-r00-c00.png",
+    "status": "ok",
+    "handling": "none",
+    "error": null
+  }]
+}
+

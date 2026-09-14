@@ -1,0 +1,25 @@
+# Machine-local manifests contain absolute source paths.
+manifests/*
+!manifests/.gitkeep
+
+# Human review files are local working data unless explicitly promoted.
+reviews/*
+!reviews/.gitkeep
+
+# Reproducible previews, crops, and reports.
+outputs/*
+!outputs/.gitkeep
+
+# Python build and test artifacts.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Original image/archive data must never be copied into this workspace.
+*.jpg
+*.jpeg
+*.zip
+

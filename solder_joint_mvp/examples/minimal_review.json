@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "algorithm_version": "0.1.0",
+  "created_at": "2026-09-14T00:00:00+00:00",
+  "instructions": "Choose keep, reject, or uncertain.",
+  "items": [{
+    "sample_id": "0123456789abcdef0123",
+    "source_path": "D:/data/batch/image.jpg",
+    "decision": "keep",
+    "reviewed_at": "2026-09-14T00:01:00+00:00",
+    "array_bbox": [10, 20, 500, 300],
+    "rows": 4,
+    "cols": 8,
+    "corners": [[10, 20], [500, 20], [500, 300], [10, 300]],
+    "centers": [[50, 50]],
+    "notes": "regular circular array",
+    "algorithm_version": "0.1.0"
+  }]
+}
+

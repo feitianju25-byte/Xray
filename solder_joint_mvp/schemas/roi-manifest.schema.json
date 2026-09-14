@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "roi-manifest.schema.json",
+  "title": "Solder ROI manifest",
+  "type": "object",
+  "required": ["schema_version", "algorithm_version", "config", "records"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "algorithm_version": {"type": "string"},
+    "config": {"type": "object"},
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["roi_id", "sample_id", "source_path", "array_id", "row", "col", "crop_bbox", "output_path", "status", "handling"],
+        "properties": {
+          "roi_id": {"type": "string"},
+          "sample_id": {"type": "string"},
+          "source_path": {"type": "string"},
+          "array_id": {"type": "string"},
+          "row": {"type": "integer", "minimum": 0},
+          "col": {"type": "integer", "minimum": 0},
+          "crop_bbox": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number"}},
+          "output_path": {"type": ["string", "null"]},
+          "status": {"enum": ["ok", "skipped", "error"]},
+          "handling": {"enum": ["none", "padded", "skipped"]},
+          "error": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}
+

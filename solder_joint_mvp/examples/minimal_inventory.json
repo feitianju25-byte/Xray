@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "algorithm_version": "0.1.0",
+  "created_at": "2026-09-14T00:00:00+00:00",
+  "roots": [{"alias": "demo", "path": "D:/data"}],
+  "summary": {"total": 1, "ok": 1, "error": 0, "sources": {"demo:batch": 1}},
+  "records": [{
+    "sample_id": "0123456789abcdef0123",
+    "root_alias": "demo",
+    "relative_path": "batch/image.jpg",
+    "source_dir": "batch",
+    "absolute_path": "D:/data/batch/image.jpg",
+    "file_size": 100,
+    "status": "ok",
+    "width": 1024,
+    "height": 768,
+    "mode": "L",
+    "error": null
+  }]
+}
+
