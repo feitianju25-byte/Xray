@@ -25,6 +25,18 @@
 python -m pytest solder_joint_mvp/tests -q
 ```
 
+## 可视化几何复核
+
+无需手写 JSON 或坐标。在仓库根目录运行：
+
+```powershell
+python solder_joint_mvp/annotate_validation.py
+```
+
+程序会依次打开冻结验证集中的 10 张图片。对每张图片：左键拖动框选目标芯片，填写焊点阵列行数和列数，然后点击“保存并下一张”。鼠标滚轮用于缩放，滚动条用于移动视野。程序会自动更新 `geometry_review.csv` 和对应 LabelMe JSON，并在第一次保存时生成 `geometry_review.csv.backup`。
+
+矩形应框住目标芯片封装本体，尽量排除外围引脚和相邻元件；行数按芯片内部圆点阵列从上到下计数，列数按从左到右计数。无需逐点点击焊点，也无需绘制分割轮廓。
+
 ## 生成首批候选
 
 ```powershell
