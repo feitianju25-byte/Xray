@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import io
 import math
 from datetime import datetime, timezone
 from pathlib import Path
@@ -64,6 +65,121 @@ def apply_ranked_suggestions(sample: dict, suggestions: dict) -> dict:
         "criteria": suggestions.get("criteria"),
     }
     return annotated
+
+
+def apply_ranked_confirmations(sample: dict, review: dict, confirmations: dict) -> dict:
+    """Merge a partial set of user-confirmed rank decisions into a review manifest."""
+    records = sample.get("records", [])
+    sample_id_by_rank = {
+        int(record.get("sample_rank", index + 1)): record["sample_id"] for index, record in enumerate(records)
+    }
+    items_by_id = {item["sample_id"]: dict(item) for item in review.get("items", [])}
+    assigned: set[int] = set()
+    reviewed_at = confirmations.get("reviewed_at") or datetime.now(timezone.utc).isoformat()
+    notes = {int(rank): note for rank, note in confirmations.get("notes", {}).items()}
+
+    for decision, ranks in confirmations.get("labels", {}).items():
+        if decision not in DECISIONS:
+            raise ValueError(f"unsupported confirmation decision: {decision}")
+        for raw_rank in ranks:
+            rank = int(raw_rank)
+            if rank in assigned:
+                raise ValueError(f"confirmation rank appears more than once: {rank}")
+            sample_id = sample_id_by_rank.get(rank)
+            if sample_id is None or sample_id not in items_by_id:
+                raise ValueError(f"confirmation rank is not present in review: {rank}")
+            item = items_by_id[sample_id]
+            item["decision"] = decision
+            item["reviewed_at"] = reviewed_at
+            if rank in notes:
+                item["notes"] = notes[rank]
+            items_by_id[sample_id] = item
+            assigned.add(rank)
+
+    merged = dict(review)
+    merged["items"] = [items_by_id[item["sample_id"]] for item in review.get("items", [])]
+    merged["confirmation_status"] = {
+        "confirmed_count": len(assigned),
+        "pending_ranks": [int(rank) for rank in confirmations.get("pending_ranks", [])],
+        "reviewed_at": reviewed_at,
+    }
+    return merged
+
+
+def _read_review_csv(csv_path: str | Path) -> tuple[list[dict], str]:
+    payload = Path(csv_path).read_bytes()
+    decode_errors = []
+    for encoding in ("utf-8-sig", "gb18030", "utf-16"):
+        try:
+            text = payload.decode(encoding)
+        except UnicodeDecodeError as error:
+            decode_errors.append(f"{encoding}: {error}")
+            continue
+        rows = list(csv.DictReader(io.StringIO(text, newline="")))
+        if rows and "sample_id" in rows[0]:
+            return rows, encoding
+    raise ValueError(f"could not decode review CSV; attempts={decode_errors}")
+
+
+def merge_review_csv(review: dict, csv_path: str | Path, reviewed_at: str | None = None) -> dict:
+    """Strictly merge human decisions edited in the review CSV back into JSON.
+
+    The JSON remains the canonical geometry record.  Only ``decision`` and
+    ``notes`` are accepted from CSV, so spreadsheet round-trips cannot silently
+    replace source paths, duplicate groups, scores, or algorithm metadata.
+    """
+    timestamp = reviewed_at or datetime.now(timezone.utc).isoformat()
+    rows, source_encoding = _read_review_csv(csv_path)
+
+    items = review.get("items", [])
+    items_by_id = {item["sample_id"]: dict(item) for item in items}
+    if len(items_by_id) != len(items):
+        raise ValueError("review JSON contains duplicate sample IDs")
+
+    rows_by_id: dict[str, dict] = {}
+    for row in rows:
+        sample_id = (row.get("sample_id") or "").strip()
+        if not sample_id:
+            raise ValueError("review CSV contains an empty sample_id")
+        if sample_id in rows_by_id:
+            raise ValueError(f"review CSV contains duplicate sample_id: {sample_id}")
+        rows_by_id[sample_id] = row
+
+    missing = sorted(set(items_by_id) - set(rows_by_id))
+    unexpected = sorted(set(rows_by_id) - set(items_by_id))
+    if missing or unexpected:
+        raise ValueError(f"review CSV sample mismatch; missing={missing}, unexpected={unexpected}")
+
+    changed_count = 0
+    merged_items = []
+    pending_ranks = []
+    for rank, original in enumerate(items, start=1):
+        item = items_by_id[original["sample_id"]]
+        row = rows_by_id[original["sample_id"]]
+        decision = (row.get("decision") or "").strip().lower()
+        if decision not in DECISIONS:
+            raise ValueError(f"unsupported CSV decision for {original['sample_id']}: {decision!r}")
+        if decision != item.get("decision"):
+            changed_count += 1
+            item["reviewed_at"] = timestamp
+        item["decision"] = decision
+        if "notes" in row:
+            item["notes"] = row.get("notes") or ""
+        if decision == "uncertain":
+            pending_ranks.append(rank)
+        merged_items.append(item)
+
+    merged = dict(review)
+    merged["items"] = merged_items
+    merged["manual_csv_import"] = {
+        "source": str(Path(csv_path).resolve()),
+        "source_encoding": source_encoding,
+        "imported_at": timestamp,
+        "changed_count": changed_count,
+        "decision_counts": {decision: sum(item["decision"] == decision for item in merged_items) for decision in sorted(DECISIONS)},
+        "pending_ranks": pending_ranks,
+    }
+    return merged
 
 
 def create_review_manifest(sample: dict, target_family: str | None = None) -> dict:
@@ -207,7 +323,7 @@ def save_review_manifest(sample: dict, output_path: str | Path) -> Path:
     return write_json(output_path, create_review_manifest(sample))
 
 
-def save_review_csv(sample: dict, output_path: str | Path) -> Path:
+def save_review_csv(sample: dict, output_path: str | Path, review: dict | None = None) -> Path:
     destination = Path(output_path)
     destination.parent.mkdir(parents=True, exist_ok=True)
     fields = [
@@ -221,10 +337,12 @@ def save_review_csv(sample: dict, output_path: str | Path) -> Path:
         "source_dir",
         "notes",
     ]
+    reviewed_by_id = {item["sample_id"]: item for item in (review or {}).get("items", [])}
     with destination.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
         for rank, record in enumerate(sample.get("records", []), start=1):
+            reviewed = reviewed_by_id.get(record["sample_id"], {})
             writer.writerow(
                 {
                     "rank": rank,
@@ -232,10 +350,10 @@ def save_review_csv(sample: dict, output_path: str | Path) -> Path:
                     "family_score": record.get("family_score"),
                     "duplicate_group": record.get("duplicate_group"),
                     "suggested_decision": record.get("suggested_decision", "uncertain"),
-                    "decision": "uncertain",
+                    "decision": reviewed.get("decision", "uncertain"),
                     "source_path": record["absolute_path"],
                     "source_dir": f"{record['root_alias']}:{record['source_dir']}",
-                    "notes": record.get("suggestion_notes", ""),
+                    "notes": reviewed.get("notes", record.get("suggestion_notes", "")),
                 }
             )
     return destination

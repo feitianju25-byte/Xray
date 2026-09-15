@@ -1,5 +1,5 @@
 schema_version: "1.0"
-algorithm_version: "0.2.0"
+algorithm_version: "0.3.0"
 inventory:
   extensions: [".jpg", ".jpeg"]
 sampling:
@@ -17,3 +17,17 @@ contact_sheet:
   label_height: 78
 review:
   allowed_decisions: ["keep", "other_component", "reject", "uncertain"]
+split:
+  seed: 20260915
+  validation_count: 10
+candidate_detection:
+  max_side: 768
+  radii: [4, 6, 9, 13, 18]
+  min_contrast: 0.06
+  min_circularity: 0.55
+  max_candidates: 500
+roi:
+  crop_ratio: 0.8
+  output_size: [96, 96]
+  boundary_policy: "pad"
+  missing_policy: "skip"
