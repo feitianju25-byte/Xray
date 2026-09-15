@@ -3,21 +3,27 @@
   "$id": "review.schema.json",
   "title": "Regular solder-array review",
   "type": "object",
-  "required": ["schema_version", "algorithm_version", "created_at", "items"],
+  "required": ["schema_version", "algorithm_version", "target_family", "created_at", "items"],
   "properties": {
     "schema_version": {"const": "1.0"},
     "algorithm_version": {"type": "string"},
+    "target_family": {"type": "string", "minLength": 1},
     "created_at": {"type": "string", "format": "date-time"},
     "instructions": {"type": "string"},
     "items": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["sample_id", "source_path", "decision", "array_bbox", "rows", "cols", "corners", "centers", "algorithm_version"],
+        "required": ["sample_id", "source_path", "target_family", "family_score", "duplicate_group", "duplicate_representative", "suggested_decision", "decision", "array_bbox", "rows", "cols", "corners", "centers", "algorithm_version"],
         "properties": {
           "sample_id": {"type": "string", "pattern": "^[0-9a-f]{20}$"},
           "source_path": {"type": "string"},
-          "decision": {"enum": ["keep", "reject", "uncertain"]},
+          "target_family": {"type": "string", "minLength": 1},
+          "family_score": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+          "duplicate_group": {"type": ["string", "null"]},
+          "duplicate_representative": {"type": ["boolean", "null"]},
+          "suggested_decision": {"enum": ["keep", "other_component", "reject", "uncertain"]},
+          "decision": {"enum": ["keep", "other_component", "reject", "uncertain"]},
           "reviewed_at": {"type": ["string", "null"], "format": "date-time"},
           "array_bbox": {"anyOf": [{"$ref": "#/$defs/bbox"}, {"type": "null"}]},
           "rows": {"type": ["integer", "null"], "minimum": 2},
@@ -35,4 +41,3 @@
     "bbox": {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}, {"type": "number"}], "items": false}
   }
 }
-

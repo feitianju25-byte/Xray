@@ -7,9 +7,9 @@
 第一阶段生成：
 
 1. 图片盘点清单和来源统计；
-2. 固定种子的候选样本清单；
-3. 最多 40 张候选联系表；
-4. 待人工填写的 `keep/reject/uncertain` 复核文件。
+2. 感知近重复组与目标元件族评分；
+3. 最多 120 张、每批 40 张的候选联系表；
+4. 区分 `keep/other_component/reject/uncertain` 的复核文件。
 
 ## 环境
 
@@ -29,11 +29,12 @@ python -m pytest solder_joint_mvp/tests -q
 
 ```powershell
 python solder_joint_mvp/run.py inventory --root "datav1=DataV1" --output "solder_joint_mvp/manifests/datav1_inventory.json"
-python solder_joint_mvp/run.py sample --manifest "solder_joint_mvp/manifests/datav1_inventory.json" --output "solder_joint_mvp/manifests/regular_array_candidates.json" --limit 40 --seed 20260914 --include "未标注" --reference "DataV1/数据集/X光图片20260603/未标注/焊点桥连/焊点桥连 (1).jpg"
-python solder_joint_mvp/run.py contact-sheet --manifest "solder_joint_mvp/manifests/regular_array_candidates.json" --output "solder_joint_mvp/outputs/contact_sheet.png" --review-output "solder_joint_mvp/reviews/candidate_review.json" --review-csv "solder_joint_mvp/reviews/candidate_review.csv"
+python solder_joint_mvp/run.py screen-family --manifest "solder_joint_mvp/manifests/datav1_inventory.json" --output "solder_joint_mvp/manifests/frontal_chip_candidates.json" --limit 120 --seed 20260915 --include "未标注" --reference "DataV1/数据集/X光图片20260804/未标注/焊点桥连/焊点桥连 (2).jpg"
+python solder_joint_mvp/run.py contact-sheets --manifest "solder_joint_mvp/manifests/frontal_chip_candidates.json" --output-dir "solder_joint_mvp/outputs/frontal_chip_candidates" --review-output "solder_joint_mvp/reviews/frontal_chip_review.json" --review-csv "solder_joint_mvp/reviews/frontal_chip_review.csv" --batch-size 40
+python solder_joint_mvp/run.py apply-suggestions --manifest "solder_joint_mvp/manifests/frontal_chip_candidates.json" --suggestions "solder_joint_mvp/examples/frontal_chip_suggestions_2026-09-15.json" --review-output "solder_joint_mvp/reviews/frontal_chip_review.json" --review-csv "solder_joint_mvp/reviews/frontal_chip_review.csv"
 ```
 
-联系表中每张图都带有稳定样本 ID。首轮可直接用 Excel 打开复核 CSV，将 `decision` 从 `uncertain` 改为 `keep` 或 `reject`；本轮至少确认 10 张 `keep`。JSON 版本用于后续几何修正，只填写阵列框、行列数、四角或少量中心点即可。
+联系表中每张图都带有稳定样本 ID、同族分数和近重复组。Codex 先填写 `suggested_decision`；用户可用 Excel 打开复核 CSV，将最终 `decision` 改为 `keep`、`other_component`、`reject` 或 `uncertain`。本轮至少确认 10 张 `keep`。JSON 版本用于后续几何修正，只填写芯片框、行列数、四角或少量中心点即可。
 
 ## 数据约定
 

@@ -1,17 +1,19 @@
 schema_version: "1.0"
-algorithm_version: "0.1.0"
+algorithm_version: "0.2.0"
 inventory:
   extensions: [".jpg", ".jpeg"]
 sampling:
-  limit: 40
-  seed: 20260914
+  limit: 120
+  seed: 20260915
   include_path_pattern: "未标注"
-  reference_image: "DataV1/数据集/X光图片20260603/未标注/焊点桥连/焊点桥连 (1).jpg"
+  target_family: "frontal-chip-internal-dot-grid-v1"
+  reference_image: "DataV1/数据集/X光图片20260804/未标注/焊点桥连/焊点桥连 (2).jpg"
+  duplicate_hamming_threshold: 10
+  max_per_duplicate_group: 1
 contact_sheet:
   columns: 5
   thumbnail_width: 320
   thumbnail_height: 220
-  label_height: 58
+  label_height: 78
 review:
-  allowed_decisions: ["keep", "reject", "uncertain"]
-
+  allowed_decisions: ["keep", "other_component", "reject", "uncertain"]
