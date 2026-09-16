@@ -1,11 +1,10 @@
 # 规则圆形焊点阵列 MVP 实施记录
 
-日期：2026-09-14  
-对应 OpenSpec 变更：`sample-regular-solder-arrays`
+日期：2026-09-14
 
 ## 本轮完成内容
 
-已完成 OpenSpec 任务 1.1–3.1，共 7/23 项：
+已完成计划任务 1.1–3.1，共 7/23 项：
 
 - 建立独立的 `solder_joint_mvp/` Python 工作区；
 - 定义图片清单、人工复核、阵列网格和 ROI 清单四类 JSON Schema；
@@ -76,4 +75,3 @@ python solder_joint_mvp/run.py sample ...
 python solder_joint_mvp/run.py contact-sheet ...
 python -m pytest solder_joint_mvp/tests -q
 ```
-
